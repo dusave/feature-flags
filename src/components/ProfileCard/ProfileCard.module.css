@@ -1,0 +1,43 @@
+.profileCard {
+  margin: 0 auto;
+  width: 300px;
+  background-color: var(--color-card-background);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px var(--color-shadow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: var(--color-primary) 0.5px solid;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color-title);
+}
+
+.role {
+  font-size: 1rem;
+  color: var(--color-subtitle);
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 0.9rem;
+  color: var(--color-subtitle);
+  word-wrap: break-word;
+}
+
+@media (max-width: 340px) {
+  .profileCard {
+    padding: 15px;
+    width: unset;
+  }
+
+  .name {
+    font-size: 1.2rem;
+  }
+}

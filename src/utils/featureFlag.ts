@@ -1,0 +1,13 @@
+export enum Feature {
+  PROFILE = 'PROFILE',
+  DYNAMIC_PRICE = 'DYNAMIC_PRICE',
+  REVENUE_METRICS = 'REVENUE_METRICS',
+  OCCUPANCY_METRICS = 'OCCUPANCY_METRICS',
+  ENFORCEMENT_METRICS = 'ENFORCEMENT_METRICS',
+  VISITOR_DASHBOARD = 'VISITOR_DASHBOARD',
+}
+
+/**
+ * TODO:
+ * - Implement logic to check if a feature should be shown.
+ */
